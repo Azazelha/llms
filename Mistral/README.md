@@ -16,28 +16,28 @@ infrastructure constraints.
 * Vocab Size = 32001
 
 ### Training Dataset
-The training dataset is same as the one present inside the Llama2 folder. Check the file named **input.txt**.
+The training dataset is the same as the one present inside the Llama2 folder. Check the file named **input.txt**.
 
 # DDP Based Distributed Training
-* Command to initiate training on single node with multiple GPUs: 
-  **torchrun --standalone --nproc-per-node=<NUM_GPUS> ddp_train.py**
+* Command to initiate training on a single node with multiple GPUs: 
+  **torch run --standalone --nproc-per-node=<NUM_GPUS> ddp_train.py**
 
 ### Results
 
 * Text Generation
 ```
 Test Sample 1:
-compression, and witherous,
+compression, and with,
 And then appointed it on the world,
 Whereby, as I was a true-bed;
 And I'll be a feast of mine.
 
 QUEEN MARGARET:
-I am dead; and I'll tell you to my breast,
+I am dead, and I'll tell you to my breast,
 And I am a traitor, I'll to be thee.
 
 QUEEN MARGARET:
-I'll stay thee in a golden fee-fath
+I'll stay there in a golden fee-faith
 To seek thee to thy friend of death.
 
 QUEEN ELIZABETH:
