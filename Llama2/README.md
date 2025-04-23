@@ -1,5 +1,6 @@
 # Llama-2
-This repository contains a PyTorch implementation of the Llama-2 model. The dataset used for training includes dialogues from a play. Note that this version of Llama-2 is a miniature variant due to infrastructure constraints.
+
+This repository contains a PyTorch implementation of the Llama-2 model. The dataset used for training includes dialogues from a play. Please note that this version of Llama-2 is a miniature variant due to infrastructure constraints.
 
 * **Epochs:** 30
 * **Batch Size:** 32
@@ -10,7 +11,8 @@ This repository contains a PyTorch implementation of the Llama-2 model. The data
 * **Total Key-Value Heads:** 2
 * **Vocabulary Size:** 32001
 
-# DDP Based Distributed Training
+# DDP-Based Distributed Training
+
 * Command to initiate training on a single node with multiple GPUs: 
   **torch run --standalone --nproc-per-node=<NUM_GPUS> ddp_train.py**
 
@@ -21,8 +23,8 @@ This repository contains a PyTorch implementation of the Llama-2 model. The data
 Test Sample 1: 
 <s> 
 CORIOLANUS:
-I am subtle; I remain to kiss my son's as good as good as is the worst will piece of you, and that I should have heard you are inclined.
-
+I am subtle; I am here to kiss my son's cheek, which is as good as anything can be, and I wish I had heard that you are inclined.
+```q
 MENENIUS:
 I am bound to you.
 
