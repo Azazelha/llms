@@ -1,13 +1,14 @@
-# LLMs
+# Large Language Models (LLMs)
 
-* Llama-2: From scratch along with training & testing
-* Mistral (Base + Mixture Of Experts): From scratch along with training & testing
+* **Llama-2:** Developed from scratch, including training and testing.
+* **Mistral (Base + Mixture of Experts):** Developed from scratch, including training and testing.
 
-# Optimization Techniques User
+# Optimization Techniques
 
 * Model Compilation
 * Mixed Precision Training
 * Flash Attention
 
 # Distributed Training
-* DDP
+
+* Distributed Data-Parallel (DDP)
