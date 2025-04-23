@@ -30,7 +30,7 @@ MENENIUS:
 I am bound. You are the cause, sir; we are sure to be prone.
 
 Both:
-I am a part of your own report.
+I am a part of your report.
 
 MENENIUS:
 I am a Roman, and I am not like your country. In the better now, you are no lesser than it seems to your country than you can. For the thing I have well as cruelty, as if you be remembered.
@@ -47,7 +47,7 @@ KING RICHARD III:
 Sweet father, love!
 
 QUEEN ELIZABETH:
-She speaks, and in the hateful duke.
+She speaks and in the hateful duke.
 
 QUEEN ELIZABETH:
 You spoke today early; take it away.
